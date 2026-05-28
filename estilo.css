@@ -1,0 +1,59 @@
+
+@font-face{
+    font-family: "fuenteEuropa";
+    src: url("recursos/AGBEN8.TTF");
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"fuenteEuropa", serif;
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    min-height:100vh;
+    color:#3d1d73;
+    width:90%;
+    margin:auto;
+    min-height:100vh;
+    display:grid;
+    width:70%;
+    font-size:14px;
+    text-align:justify;
+    display: grid;
+
+}
+
+body nav{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    justify-content:start ;
+}
+
+body main{
+    display: grid;
+    justify-content: end;
+}
+
+body img{
+    display: grid;
+    justify-content: end;
+}
+body footer{
+    display: grid;
+    justify-content: stretch;
+    align-content: end;
+}
+.imagen{
+    width:250px;
+}
+
+.imagen img{
+    width:100%;
+    border-radius:5px;
+}
+
